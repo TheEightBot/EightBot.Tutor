@@ -31,6 +31,11 @@ namespace EightBot.Tutor.iOSDemo
 
 			var tutor = new Tutor.iOS.Tutor(
 				new List<PageInfo> {
+					new PageInfo { ImagePath = "screen1.png", PageText = "Welcome", BackgroundColor = UIColor.DarkTextColor, PageTextLocation = PageTextLocation.Bottom, PageTextColor = UIColor.White },
+					new PageInfo { ImagePath = "screen2.png" },
+					new PageInfo { ImagePath = "screen3.png" },
+					new PageInfo { ImagePath = "screen4.png" },
+					new PageInfo { ImagePath = "screen5.png" },
 					new PageInfo { ImagePath = "1 - Death Star (Flat).png", PageText = "Ipsum", PageTextColor = UIColor.White },
 					new PageInfo { ImagePath = "2 - TIE Fighter (Flat).png", BackgroundColor = UIColor.Red, PageText = "Sed nisi. Nulla quis sem at nibh elementum imperdiet.", PageTextLocation = PageTextLocation.Bottom, PageTextColor = UIColor.LightGray },
 					new PageInfo { ImagePath = "3 - Fighting Spaceship (Flat).png", BackgroundColor = UIColor.Green, PageText = "Duis sagittis ipsum. Praesent mauris.", PageTextLocation = PageTextLocation.Middle, PageTextColor = UIColor.Yellow },

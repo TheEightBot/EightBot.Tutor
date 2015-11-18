@@ -124,5 +124,10 @@
     <BundleResource Include="Resources\3 - Fighting Spaceship %28Flat%29.png" />
     <BundleResource Include="Resources\4 - Avatar Ship %28Flat%29.png" />
     <BundleResource Include="Resources\5 - Artifficial Gravity Module %28Flat%29.png" />
+    <BundleResource Include="Resources\screen5.png" />
+    <BundleResource Include="Resources\screen4.png" />
+    <BundleResource Include="Resources\screen3.png" />
+    <BundleResource Include="Resources\screen2.png" />
+    <BundleResource Include="Resources\screen1.png" />
   </ItemGroup>
 </Project>

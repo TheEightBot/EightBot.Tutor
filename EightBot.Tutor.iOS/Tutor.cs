@@ -93,9 +93,9 @@ namespace EightBot.Tutor.iOS
 					if(isFinalPage)
 						UIView.Animate(.1d, 0d, UIViewAnimationOptions.CurveEaseIn, 
 							() => {
+								View.BringSubviewToFront(_finalize);
 								_finalize.Alpha = 1f;
 								_finalize.UserInteractionEnabled = true;
-								View.BringSubviewToFront(_finalize);
 							},
 							() => {});
 //					else {
