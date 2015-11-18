@@ -37,7 +37,10 @@ namespace EightBot.Tutor.iOSDemo
 					new PageInfo { ImagePath = "4 - Avatar Ship (Flat).png", BackgroundColor = UIColor.Blue, PageText = "Fusce nec tellus sed augue semper porta.", PageTextLocation = PageTextLocation.Top, PageTextColor = UIColor.White },
 					new PageInfo { ImagePath = "5 - Artifficial Gravity Module (Flat).png" },
 					new PageInfo { BackgroundColor = UIColor.Purple, PageText = "Vestibulum sapien", PageTextLocation = PageTextLocation.Top, PageTextColor = UIColor.White }
-				}
+				},
+				"Finished",
+				UIColor.Blue,
+				UIColor.White
 			);
 
 			Window.RootViewController = tutor;
